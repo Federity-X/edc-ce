@@ -65,7 +65,7 @@ jobs:
       - name: "Set up Node 24"
         uses: actions/setup-node@v3
         with:
-          node-version: "24.x"
+          node-version: "24.22.3"
           cache: "yarn"
           cache-dependency-path: |
             frontend/yarn.lock
@@ -156,7 +156,7 @@ jobs:
       - name: "Set up Node 24"
         uses: actions/setup-node@v3
         with:
-          node-version: "24"
+          node-version: "24.22.3"
           registry-url: "https://registry.npmjs.org"
           cache: "npm"
           cache-dependency-path: connector/ce/libs/api-clients/typescript-client/package.json
